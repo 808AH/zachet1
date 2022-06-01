@@ -3,7 +3,11 @@
   /* общий */
 
   .container {
-    width: 739px;
+    max-width: 739px;
+  }
+
+  h1 {
+    margin: 207px 0 0 0;
   }
 
   h2 {
@@ -23,19 +27,11 @@
     top: 47px;
   }
 
-  /* main  */
+  /* main */
+  /* section */
+
   main section {
     margin: 0 auto 83px;
-  }
-
-  .main__illustration {
-    width: 336px;
-    height: 292.13px;
-    margin-top: -90px;
-  }
-
-  main h1 {
-    margin: 207px 0 0 0;
   }
 
   main p {
@@ -45,6 +41,14 @@
   main button {
     margin: 71px 0 171px 0;
   }
+
+  .main__illustration {
+    width: 336px;
+    height: 292.13px;
+    margin-top: -90px;
+  }
+
+  /* section "flex" */
 
   .container__card {
     justify-content: space-around;
@@ -97,6 +101,8 @@
     height: 91px;
   }
 
+  /* section "grid" */
+
   .container__p {
     margin: -32px auto;
     width: 520px;
@@ -116,14 +122,14 @@
   }
 
   .grid_item_content1 {
+    background-size: cover;
     height: 253px;
     width: 354.5px;
     border-radius: 10px;
   }
 
   .grid_item_content2 {
-    align-self: stretch;
-    justify-self: stretch;
+    background-size: cover;
     height: 253px;
     width: 354.5px;
     border-radius: 10px;
