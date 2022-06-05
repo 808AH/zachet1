@@ -1,0 +1,180 @@
+@media screen and (max-width: 760px) {
+
+  /* общий */
+
+  /* header */
+
+  header {
+    min-width: 375px;
+  }
+
+  header .container {
+    width: 343px;
+  }
+
+  /* main */
+  /* section */
+
+  main section {
+    min-width: 375px;
+  }
+
+  .container {
+    max-width: 375px;
+  }
+
+  main .container {
+    min-width: 375px;
+    width: 341px;
+    height: 141px;
+  }
+
+  h1 {
+    width: 163px;
+    height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  main p {
+    width: 341px;
+    height: 81px;
+    font-size: 16px;
+  }
+
+  .main__illustration {
+    min-width: 375px;
+    top: 83px;
+    max-width: 760px;
+  }
+
+  /* section "flex" */
+
+  h4 {
+    width: 165px;
+    height: 30px;
+  }
+
+  .flex {
+    margin: 0 auto 0;
+    width: 342px;
+  }
+
+  .container__card {
+    margin-top: 107px;
+  }
+
+  .text__p {
+    margin: 0 auto 32px;
+  }
+
+  .icon__text2 {
+    margin-bottom: 34px;
+  }
+
+  .card2 {
+    margin: 32px auto 0;
+    width: 342.67px;
+    height: 514px;
+  }
+
+  .card2__h4 {
+    margin: 36px 0 31px 36px;
+    width: 217px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  legend {
+    margin: 20.23px 56px 0 36px;
+    font-size: 14px;
+  }
+
+  input {
+    margin: 0 56px 0 36px;
+    width: 271.6px;
+    height: 46.26px;
+  }
+
+  .message {
+    margin-bottom: 46px;
+    padding-bottom: 50px;
+    width: 271.6px;
+    height: 92.52px;
+  }
+
+  .submit {
+    margin: 0 36px 36px;
+  }
+
+  /* section "location" */
+
+  .location {
+    margin: 32px auto 32px;
+    height: 349px;
+  }
+
+  .location__map {
+    width: 100%;
+    height: 349px;
+  }
+
+  /* footer */
+
+  footer {
+    text-align: center;
+    min-width: 375px;
+  }
+
+  footer .container {
+    padding: 32px 0px;
+    box-sizing: border-box;
+  }
+
+  footer h3 {
+    width: 240px;
+    height: 51px;
+    font-size: 24px;
+    line-height: 28px;
+    margin: -14px auto 32px;
+    text-align: center;
+  }
+
+  footer p {
+    margin: 0 auto;
+    width: 343px;
+    height: 97px;
+  }
+
+  footer button {
+    float: none;
+    width: 108.23px;
+    height: 31.48px;
+    margin: 33px auto 16px;
+  }
+
+  footer ol {
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+  }
+
+  footer li {
+    padding-left: 39px;
+  }
+
+  footer li+li {
+    margin-top: 18px;
+  }
+
+  footer li br {
+    display: inline;
+  }
+
+  .copy {
+    width: 343px;
+    height: 26px;
+    margin: 32px auto 0;
+  }
+}

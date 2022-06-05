@@ -1,0 +1,138 @@
+@media screen and (max-width: 1200px) {
+
+  /* общий */
+
+  /* header */
+
+  header {
+    top: 10px;
+    width: 100%;
+  }
+
+  header .container {
+    width: 704px;
+  }
+
+  /* main */
+  /* section */
+
+  main section {
+    margin: 0 auto 64px;
+  }
+
+  .container {
+    max-width: 739px;
+  }
+
+  main .container {
+    margin: 149px auto 44px;
+    width: 520px;
+  }
+
+  h1 {
+    width: 520px;
+  }
+
+  main p {
+    width: 520px;
+  }
+
+  .main__illustration {
+    top: 99px;
+    max-width: 1200px;
+  }
+
+  /* section "flex" */
+
+  h4 {
+    width: 165px;
+  }
+
+  .flex {
+    width: 520px;
+    height: auto;
+  }
+
+  .container__card {
+    margin-top: 114px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .card1 {
+    margin: 0 auto;
+  }
+
+  .card__image {
+    margin: 0 auto 64px;
+  }
+
+  .card2 {
+    margin: 64px auto 0;
+    width: 520px;
+    height: 780px;
+  }
+
+  input {
+    margin: 0 54px 0 54px;
+    width: 412.15px;
+    height: 70.2px;
+  }
+
+  .message {
+    width: 412.15px;
+    height: 140.4px;
+  }
+
+  /* section "location" */
+
+  .location {
+    margin: 0 auto 64px;
+    height: 392px;
+  }
+
+  .location__map {
+    object-fit: none;
+    max-width: 768px;
+    width: 100%;
+    height: 392px;
+  }
+
+  /* footer */
+
+  footer .container {
+    padding: 64px 92px;
+    box-sizing: border-box;
+  }
+
+  footer h3 {
+    margin: -16px 0 32px;
+  }
+
+  footer p {
+    width: 336px;
+    margin: 0;
+  }
+
+  footer button {
+    margin-top: -115px;
+    width: 134px;
+    height: 32px;
+  }
+
+  footer ol {
+    display: block;
+  }
+
+  footer li {
+    padding-left: 59px;
+  }
+
+  footer li+li {
+    margin-top: 26px;
+  }
+
+  footer li br {
+    display: none;
+  }
+}
