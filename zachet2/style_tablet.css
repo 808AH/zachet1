@@ -73,14 +73,15 @@
     height: 780px;
   }
 
-  input {
+  input,
+  textarea {
     margin: 0 54px 0 54px;
     width: 412.15px;
     height: 70.2px;
   }
 
-  .message {
-    width: 412.15px;
+  textarea {
+    margin-bottom: 70px;
     height: 140.4px;
   }
 

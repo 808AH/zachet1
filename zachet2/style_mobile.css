@@ -79,7 +79,7 @@
   }
 
   .card2__h4 {
-    margin: 36px 0 31px 36px;
+    margin: 24px 0 31px 36px;
     width: 217px;
     height: 19px;
     font-size: 16px;
@@ -91,21 +91,28 @@
     font-size: 14px;
   }
 
-  input {
-    margin: 0 56px 0 36px;
+  input,
+  textarea {
+    margin: 0 36px 0 36px;
     width: 271.6px;
     height: 46.26px;
   }
 
-  .message {
-    margin-bottom: 46px;
-    padding-bottom: 50px;
-    width: 271.6px;
+  input::placeholder {
+    padding: 0px 23px;
+  }
+
+  textarea {
+    margin-bottom: 36px;
     height: 92.52px;
   }
 
+  textarea::placeholder {
+    padding: 0px 23px;
+  }
+
   .submit {
-    margin: 0 36px 36px;
+    margin: 0 36px 0;
   }
 
   /* section "location" */
