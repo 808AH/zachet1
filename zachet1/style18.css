@@ -86,7 +86,8 @@ body {
   font: normal 400 16px / 26px 'Roboto', Arial, Helvetica, sans-serif;
   letter-spacing: 0.05em;
   height: 100%;
-  max-width: 1366px;
+  max-width: 100%;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -144,7 +145,7 @@ h4 {
 /* header */
 
 header {
-  max-width: 1366px;
+  max-width: 100%;
   position: absolute;
   top: 34px;
   width: 100%;
@@ -177,6 +178,10 @@ header a {
 /* main */
 /* section */
 
+main {
+  flex: 1 1 auto;
+}
+
 main section {
   margin: 0 auto 64px;
 }
@@ -203,6 +208,7 @@ main button {
 }
 
 .main__illustration {
+
   height: 481.39px;
   width: 553.68px;
   float: right;
@@ -212,7 +218,7 @@ main button {
 .gradient {
   z-index: -1;
   position: absolute;
-  max-width: 1366px;
+  max-width: 100%;
   width: 100%;
   height: 768px;
   left: 0px;
